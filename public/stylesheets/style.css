@@ -1,15 +1,34 @@
+* {margin:0; padding:0}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#page-wrap {margin:2% auto; color:black;}
+#page-wrap > .main 
+{
+   border: 1px solid grey;
+   margin: 2px; 
+   padding: 4px;
 }
 
 a {
   color: #00B7FF;
 }
 
-.main
-{
-border: 1px solid grey;
-margin: 2px; 
-padding: 4px;
+section > div {padding: 20px}
+
+footer {
+background-color: #BED1CF;
 }
+
+header, nav, section
+{
+background: #eee; text-align: center;}
+}
+
+
+
+nav span {margin: 0px 10px 0px 0px;}
+
