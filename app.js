@@ -56,7 +56,7 @@ app.use(function(err, req, res, next) {
     });
 });
 
-app.use(favicon(__dirname + '/public/favicon.ico'));
+
 app.use(logger('dev'));
 
 module.exports = app;

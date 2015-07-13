@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+	<meta charset="utf-8">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+  </head>
+  <body>
+    <h2>Quiz: el juego</h2>
+	<form method="get" action="/quizes/answer">
+    <p>
+		Pregunta: <%= pregunta%><br>
+		<input type="text" name="respuesta" placeholder="Escriba aquí">
+		<input type="submit" value="Enviar">
+	</p>
+	</form>
+  </body>
+</html>
