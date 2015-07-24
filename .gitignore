@@ -45,3 +45,5 @@ Temporary Items
 
 #mio
 node_modules
+.env
+
