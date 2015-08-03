@@ -11,5 +11,17 @@
     placeholder="Respuesta"
 <% } %>
 ><br>
+<select name="quiz[tema]">
+<% 
+    var temas=["otro","humanidades","ocio","ciencia","tecnologia"];
+    var temasLabel={otro:"Otro", humanidades: "Humanidades", ocio:"Ocio",
+        ciencia:"Ciencia", tecnologia:"Tecnología"};
+    for (s in temas) {
+%>
+    <option value="<%=temas[s]%>"><%=temasLabel[temas[s]]%></option>
+
+<% } /*for*/ %>
+</select>
+<br>
 <a href="/quizes"><button type="button">Cancelar</button></a>
 <input type="submit" value="Salvar">

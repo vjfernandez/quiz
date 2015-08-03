@@ -23,7 +23,8 @@ module.exports=function(sequelize, DataTypes)
                        msg: "-> Falta respuesta"
                    }
                }
-           }
+           }, 
+           tema: DataTypes.STRING       
 	   }
 	);
 	
