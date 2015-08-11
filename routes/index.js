@@ -28,4 +28,9 @@ router.get('/author', authorController.main);
 router.get('/quizes/new', quizController.new);
 router.post('/quizes/create', quizController.create);
 
+
+//editar
+router.get('/quizes/:quizId(\\d+)/edit', quizController.edit);
+router.put('/quizes/:quizId(\\d+)', quizController.update);
+
 module.exports = router;
